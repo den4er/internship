@@ -25,4 +25,6 @@ git commit -m .
 
 ## 6. Залить изменения на гитхаб
 
-git push -u origin master -
+git push -u origin master 
+
+# &#128521;
