@@ -1,39 +1,28 @@
-# internship
 
-git config --global user.name "Your Name" - установка имени
+# Основные команды для копирования и загрузки 
 
-git config --global user.email "your_email@whatever.com" - установка почты
+## 1. Копирование директории internship с сервера на пк
 
-git config --global core.autocrlf true
-git config --global core.safecrlf warn - установка окончаний строк (винда)
+git clone https://github.com/den4er/internship 
 
-git config --global core.quotepath off - Установка отображения unicode
+## 2. Войти в папку internship
 
-mkdir hello - создать директорию hello
+cd internship 
 
-cd hello - перейьт в директорид hello
+***Произвести необходимые изменения***
 
-touch hello.html - создать файл hello.html
+## 3. Проверить текущий статус
 
-git init - создает репозиторий из созданного каталога
+git status
 
+## 4. Добавляет содержимое рабочей директории в индекс для следующего коммита
 
+git add .
 
+## 5. Закоммитить изменения
 
+git commit -m . 
 
+## 6. Залить изменения на гитхаб
 
-
-
-
-
-git clone https://github.com/den4er/internship - копирование директории internship с сервера на пк
-
-cd internship - войти в папку internship
-
-git status - проверить текущий статус
-
-git add . - отследить изменения
-
-git commit -m . - закоммитить изменения
-
-git push -u origin master -залить изменения на гитхаб
+git push -u origin master -
