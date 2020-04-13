@@ -7,10 +7,12 @@
 ### Параметры установки окончаний строк
 
 Unix/Mac
+
 	git config --global core.autocrlf input
 	git config --global core.safecrlf warn
 
 Windows
+
 	git config --global core.autocrlf true
 	git config --global core.safecrlf warn
 
