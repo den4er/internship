@@ -41,6 +41,7 @@
   <ul>
     <?php
       for($i=1; $i<3; $i++){
+      
         echo "<li>Lorem, ipsum";
         
         if($i==2)
