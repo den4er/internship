@@ -1,10 +1,11 @@
 # Базовые настройки
+***
 
-### Установка имени и электронной почты
+**Установка имени и электронной почты**
 	*git config --global user.name "Your Name"*
 	*git config --global user.email "your_email@whatever.com"*
 
-### Параметры установки окончаний строк
+### Параметры установки окончаний строк ###
 
 Unix/Mac
 	*git config --global core.autocrlf input*
@@ -14,9 +15,10 @@ Windows
 	*git config --global core.autocrlf true*
 	*git config --global core.safecrlf warn*
 
-# Работа с директориями и репозиториями
+# Работа с директориями и репозиториями #
+***
 
-### Создание директории hello
+### Создание директории hello ###
 	*mkdir hello*
 
 ### Переход в созданную директорию hello
@@ -41,6 +43,7 @@ Windows
 	*git mv hello.html lib*
 
 # Изменение и коммит
+***
 
 ### Добавить и закоммитить файл
 	*git add hello.html*
@@ -63,6 +66,7 @@ Windows
 	*cat hello.html*
 
 # Работа с ветками и отмена изменений
+***
 
 ### Переключиться на верку master
 	*git checkout master*
